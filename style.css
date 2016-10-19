@@ -1,0 +1,178 @@
+* {
+   border: 1px solid white !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+* { 
+    font-family: 'Indie Flower', cursive;
+}
+
+hr {
+	width: 90%;
+	margin-right:95px;
+	background-color:#7d97ad;
+	height:6px;
+}
+
+.name {
+	font-size:48px;
+	text-align:right;
+	margin-left: 575px;
+	padding-right: 120px;
+	font-style:normal;
+	font-weight:70;
+	margin-top:-12px;
+	font-weight: normal;
+}
+
+a {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(27% - 4px);
+  text-decoration: none;
+  margin-left: 25px;
+  
+  color: black;
+  
+}
+
+figcaption {
+  margin-top: 15px;
+}/*the url link of my projects*/
+
+.ninja {
+	text-align: right;
+	margin-right:148px;
+	margin-top:-30px;
+	margin-left: 650px;
+	
+}
+.col-md-12{
+	width:900px;
+}
+
+.title {
+	text-align:left;
+	margin-top: -25px;
+	padding-right: 150px;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gallery-row{
+	width: 1500px;
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	padding: 0 10px 0 10px;
+}
+
+
+
+.col-md-4{
+	width: 300px;
+	margin:0 0 0 0;
+	min-height: 10px;
+	flex-direction: row;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+	padding: 0 0 0 0;
+} 
+
+figcaption {
+  margin-top: 15px;
+  position:absolute;
+  bottom: -160px;
+  padding: 0 5px 0 5px;
+  font-size: .7em;
+}/*the url link of my projects*/
+
+.flexcontainer {
+	padding-top: 50px;
+	flex-direction: row;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+	display: -webkit-flex;
+	display: flex;
+	width: 1000px;
+	height:300px;
+	}
+	
+	.container {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	
+	.gallery-name {
+		position: absolute;
+		bottom: 100px;
+		left: 180px;
+		color:#7d97ad;
+		font-weight:10;
+		
+	}
+
+a:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.logo {
+	position: absolute;
+	left: 200px;
+	top: 60px;
+	
+	width: 70px;
+	height: 60px;
+}
+
+.main {
+margin-right: 70px;	
+ width: 900px;
+ height:350px;
+ display:block;
+ border: none;
+ 
+ 
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  height:auto;
+  position:absolute;
+  bottom: -140px;
+  width:200px;
+  
+}
+
+.h4 {
+	text-align: justify;
+}
+
+.pictures {
+  margin:0 0 0 0;
+ 
+  border: none;
+  max-width: 100%;
+  
+  padding-right:0 px;
+  width:300px;
+  height: auto%;
+  
+  background: #fffff;
+  transition: transform .2s ease-in-out;
+}
